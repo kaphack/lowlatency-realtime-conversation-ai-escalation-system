@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	pb "hackathon-ai/proto/convo"
+	pb "lowlatency-realtime-conversation-ai-escalation-system/proto/convo"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
