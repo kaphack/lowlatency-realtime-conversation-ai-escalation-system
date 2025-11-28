@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package convo;
+
+option go_package = "hackathon-ai/proto/convo";
+
+message AudioChunk {
+  string conversation_id = 1;
+  string participant_id = 2;
+  uint64 sequence = 3;
+  bytes payload = 4;  // raw audio bytes (e.g. PCM or Opus)
+  int64 timestamp = 5;
+}
+
+message ProduceAck {
+  string conversation_id = 1;
+  bool ok = 2;
+  string message = 3;
+}
+
+service ConversationService {
+  // client streams audio chunks; server replies one ack.
+  rpc StreamAudio(stream AudioChunk) returns (ProduceAck);
+}
