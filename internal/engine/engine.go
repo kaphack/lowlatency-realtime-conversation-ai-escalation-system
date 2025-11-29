@@ -2,9 +2,11 @@ package engine
 
 //nice
 import (
+	"fmt"
 	"log"
 
 	"github.com/kaphack/lowlatency-realtime-conversation-ai-escalation-system/internal/core"
+	"github.com/kaphack/lowlatency-realtime-conversation-ai-escalation-system/internal/db"
 	conversationv1 "github.com/kaphack/lowlatency-realtime-conversation-ai-escalation-system/proto"
 )
 
@@ -13,8 +15,13 @@ type Engine struct {
 }
 
 func NewEngine() *Engine {
+	repo, err := db.NewRepository()
+	if err != nil {
+		fmt.Printf("err in repo init")
+	}
+
 	return &Engine{
-		analyzer: core.NewAnalyzer(),
+		analyzer: core.NewAnalyzer(repo),
 	}
 }
 

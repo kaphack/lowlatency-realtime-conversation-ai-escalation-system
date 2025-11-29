@@ -4,9 +4,11 @@ import (
 	"context"
 	"log"
 	"strings"
+	"time"
 
 	"github.com/kaphack/lowlatency-realtime-conversation-ai-escalation-system/internal/core"
 	"github.com/kaphack/lowlatency-realtime-conversation-ai-escalation-system/internal/db"
+	conversationv1 "github.com/kaphack/lowlatency-realtime-conversation-ai-escalation-system/proto"
 	"github.com/segmentio/kafka-go"
 )
 
@@ -28,7 +30,7 @@ func NewConsumer(brokers []string, topic string, groupID string, repo *db.Reposi
 
 	return &Consumer{
 		reader:   reader,
-		analyzer: core.NewAnalyzer(),
+		analyzer: core.NewAnalyzer(repo),
 		engine:   core.NewEngine(),
 		repo:     repo,
 	}
@@ -60,7 +62,18 @@ func (c *Consumer) Start(ctx context.Context) error {
 		}
 
 		// 1. Analyze
-		analysis := c.analyzer.Analyze(text)
+		chunk := &conversationv1.ConversationChunk{
+			SessionId:   "",
+			MessageId:   "",
+			Sender:      "",
+			Text:        text,
+			TimestampMs: time.Now().UnixMilli(),
+			Metadata: map[string]string{
+				"source": "rest-api",
+			},
+		}
+
+		analysis := c.analyzer.Analyze(chunk)
 
 		// 2. Fetch Rules (In a real system, cache this!)
 		rules, err := c.repo.GetAllRules()

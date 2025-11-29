@@ -4,15 +4,19 @@ import (
 	"strings"
 	"unicode"
 
+	"github.com/kaphack/lowlatency-realtime-conversation-ai-escalation-system/internal/db"
 	conversationv1 "github.com/kaphack/lowlatency-realtime-conversation-ai-escalation-system/proto"
 )
 
 // Analyzer is responsible for processing text and extracting metrics
 type Analyzer struct {
+	repo *db.Repository
 }
 
-func NewAnalyzer() *Analyzer {
-	return &Analyzer{}
+func NewAnalyzer(repo *db.Repository) *Analyzer {
+	return &Analyzer{
+		repo: repo,
+	}
 }
 
 // Analyze returns a map of word counts from the input text

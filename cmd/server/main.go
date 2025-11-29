@@ -2,7 +2,6 @@ package main
 
 import (
 	"context"
-	"fmt"
 	"log"
 	"net/http"
 	"os"
@@ -39,7 +38,7 @@ func main() {
 		dbName = "escalation_db"
 	}
 
-	dsn := fmt.Sprintf("%s:%s@tcp(%s:%s)/%s?parseTime=true", dbUser, dbPassword, dbHost, dbPort, dbName)
+	//dsn := fmt.Sprintf("%s:%s@tcp(%s:%s)/%s?parseTime=true", dbUser, dbPassword, dbHost, dbPort, dbName)
 
 	kafkaBrokers := os.Getenv("KAFKA_BROKERS")
 	if kafkaBrokers == "" {
@@ -51,7 +50,7 @@ func main() {
 	}
 
 	// Initialize DB
-	repo, err := db.NewRepository(dsn)
+	repo, err := db.NewRepository()
 	if err != nil {
 		log.Fatalf("Failed to initialize database: %v", err)
 	}
