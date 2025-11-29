@@ -22,3 +22,28 @@ type ParsedRule struct {
 	Rule
 	ParsedConditions []Condition
 }
+
+// Analysis represents the result of analyzing a conversation
+type Analysis struct {
+	WordCounts map[string]int
+}
+
+// Tokenize splits content into words (simple implementation)
+func Tokenize(content string) []string {
+	// In a real implementation, use regex or a proper tokenizer
+	// This is a placeholder for the example
+	var words []string
+	currentWord := ""
+	for _, r := range content {
+		if (r >= 'a' && r <= 'z') || (r >= 'A' && r <= 'Z') || (r >= '0' && r <= '9') {
+			currentWord += string(r)
+		} else if currentWord != "" {
+			words = append(words, currentWord)
+			currentWord = ""
+		}
+	}
+	if currentWord != "" {
+		words = append(words, currentWord)
+	}
+	return words
+}

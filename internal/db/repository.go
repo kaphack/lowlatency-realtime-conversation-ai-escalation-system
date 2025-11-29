@@ -5,18 +5,29 @@ import (
 	"encoding/json"
 	"fmt"
 	"log"
+	"os"
 
-	_ "github.com/mattn/go-sqlite3"
-	"github.com/rba1aji/lowlatency-realtime-conversation-ai-escalation-system/internal/core"
+	_ "github.com/go-sql-driver/mysql"
 	"github.com/google/uuid"
+	"github.com/kaphack/lowlatency-realtime-conversation-ai-escalation-system/internal/core"
 )
 
 type Repository struct {
 	db *sql.DB
 }
 
-func NewRepository(dbPath string) (*Repository, error) {
-	db, err := sql.Open("sqlite3", dbPath)
+func NewRepository() (*Repository, error) {
+	user := os.Getenv("DB_USER")
+	pass := os.Getenv("DB_PASS")
+	host := os.Getenv("DB_HOST")
+	port := os.Getenv("DB_PORT")
+	name := os.Getenv("DB_NAME")
+
+	dsn := fmt.Sprintf(
+		"%s:%s@tcp(%s:%s)/%s?parseTime=true&charset=utf8mb4&loc=Local",
+		user, pass, host, port, name,
+	)
+	db, err := sql.Open("mysql", dsn)
 	if err != nil {
 		return nil, fmt.Errorf("failed to open database: %w", err)
 	}
@@ -34,19 +45,69 @@ func NewRepository(dbPath string) (*Repository, error) {
 }
 
 func (r *Repository) initSchema() error {
-	query := `
+	log.Println("Initializing schema...")
+	queryRules := `
 	CREATE TABLE IF NOT EXISTS rules (
-		id TEXT PRIMARY KEY,
+		id VARCHAR(36) PRIMARY KEY,
 		name TEXT NOT NULL,
 		conditions JSON NOT NULL,
 		action TEXT NOT NULL
 	);
 	`
-	_, err := r.db.Exec(query)
+	if _, err := r.db.Exec(queryRules); err != nil {
+		return fmt.Errorf("failed to create rules table: %w", err)
+	}
+
+	queryMessages := `
+	CREATE TABLE IF NOT EXISTS messages (
+		id VARCHAR(36) PRIMARY KEY,
+		conversation_id VARCHAR(255),
+		content TEXT,
+		timestamp BIGINT
+	);
+	`
+	if _, err := r.db.Exec(queryMessages); err != nil {
+		return fmt.Errorf("failed to create messages table: %w", err)
+	}
+
+	return nil
+}
+
+func (r *Repository) SaveMessage(conversationID, content string, timestamp int64) error {
+	id := uuid.New().String()
+	query := `INSERT INTO messages (id, conversation_id, content, timestamp) VALUES (?, ?, ?, ?)`
+	_, err := r.db.Exec(query, id, conversationID, content, timestamp)
 	if err != nil {
-		return fmt.Errorf("failed to create schema: %w", err)
+		return fmt.Errorf("failed to save message: %w", err)
 	}
 	return nil
+}
+
+// GetWordCounts simulates Spark aggregation by counting words in recent messages for a conversation
+func (r *Repository) GetWordCounts(conversationID string) (map[string]int, error) {
+	// In a real scenario with Spark, this would query the Spark cluster or a pre-aggregated view.
+	// Here we aggregate from the messages table directly.
+	query := `SELECT content FROM messages WHERE conversation_id = ?`
+	rows, err := r.db.Query(query, conversationID)
+	if err != nil {
+		return nil, fmt.Errorf("failed to query messages: %w", err)
+	}
+	defer rows.Close()
+
+	wordCounts := make(map[string]int)
+	for rows.Next() {
+		var content string
+		if err := rows.Scan(&content); err != nil {
+			continue
+		}
+		// Simple tokenization (split by space)
+		// In production, use a proper tokenizer and normalizer
+		words := core.Tokenize(content)
+		for _, word := range words {
+			wordCounts[word]++
+		}
+	}
+	return wordCounts, nil
 }
 
 func (r *Repository) CreateRule(name string, conditions []core.Condition, action string) (*core.Rule, error) {

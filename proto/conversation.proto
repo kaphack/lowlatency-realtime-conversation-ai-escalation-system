@@ -1,0 +1,53 @@
+syntax = "proto3";
+
+package conversation.v1;
+
+option go_package = "github.com/kaphack/lowlatency-realtime-conversation-ai-escalation-system/proto;conversationv1";
+
+// A single chunk of a live conversation (chat or voice transcript).
+message ConversationChunk {
+  // Unique session identifier (conversation id).
+  string session_id = 1;
+
+  // Unique id of this message/chunk within the session.
+  string message_id = 2;
+
+  // Who sent this chunk: e.g. "AGENT", "CUSTOMER", "SYSTEM".
+  string sender = 3;
+
+  // The textual content (raw transcript or chat message).
+  string text = 4;
+
+  // Event timestamp in milliseconds since epoch.
+  int64 timestamp_ms = 5;
+
+  // Extra metadata fields (channel, language, tags, etc.).
+  map<string, string> metadata = 6;
+
+  string client_id = 7;
+}
+
+// Acknowledgement from analytics/escalation engine after stream finishes.
+message AnalyticsAck {
+  // The session this ACK corresponds to.
+  string session_id = 1;
+
+  // The last message_id successfully processed for this session.
+  string last_message_id = 2;
+
+  // Whether processing succeeded end-to-end.
+  bool success = 3;
+
+  // Optional human-readable message (error, debug info, etc.).
+  string message = 4;
+
+  string client_id = 7;
+}
+
+// gRPC service for client-streaming conversation chunks.
+service ConversationStream {
+  // Client opens a stream, sends multiple ConversationChunk messages,
+  // server processes them in real-time and responds with a single ACK
+  // when the client closes the stream.
+  rpc StreamConversation (stream ConversationChunk) returns (AnalyticsAck);
+}

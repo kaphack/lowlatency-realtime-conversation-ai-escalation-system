@@ -4,9 +4,11 @@ import (
 	"context"
 	"log"
 	"strings"
+	"time"
 
-	"github.com/rba1aji/lowlatency-realtime-conversation-ai-escalation-system/internal/core"
-	"github.com/rba1aji/lowlatency-realtime-conversation-ai-escalation-system/internal/db"
+	"github.com/kaphack/lowlatency-realtime-conversation-ai-escalation-system/internal/core"
+	"github.com/kaphack/lowlatency-realtime-conversation-ai-escalation-system/internal/db"
+	conversationv1 "github.com/kaphack/lowlatency-realtime-conversation-ai-escalation-system/proto"
 	"github.com/segmentio/kafka-go"
 )
 
@@ -28,7 +30,7 @@ func NewConsumer(brokers []string, topic string, groupID string, repo *db.Reposi
 
 	return &Consumer{
 		reader:   reader,
-		analyzer: core.NewAnalyzer(),
+		analyzer: core.NewAnalyzer(repo),
 		engine:   core.NewEngine(),
 		repo:     repo,
 	}
@@ -48,8 +50,30 @@ func (c *Consumer) Start(ctx context.Context) error {
 		text := string(m.Value)
 		log.Printf("Received message: %s", text)
 
+		// Save message to DB
+		// Assuming conversation_id is part of the key or we use a default for now.
+		// In a real system, the message value would likely be a JSON struct containing conversation_id.
+		conversationID := "default_conversation"
+		if len(m.Key) > 0 {
+			conversationID = string(m.Key)
+		}
+		if err := c.repo.SaveMessage(conversationID, text, m.Time.UnixMilli()); err != nil {
+			log.Printf("Failed to save message: %v", err)
+		}
+
 		// 1. Analyze
-		analysis := c.analyzer.Analyze(text)
+		chunk := &conversationv1.ConversationChunk{
+			SessionId:   "",
+			MessageId:   "",
+			Sender:      "",
+			Text:        text,
+			TimestampMs: time.Now().UnixMilli(),
+			Metadata: map[string]string{
+				"source": "rest-api",
+			},
+		}
+
+		analysis := c.analyzer.Analyze(chunk)
 
 		// 2. Fetch Rules (In a real system, cache this!)
 		rules, err := c.repo.GetAllRules()
