@@ -5,8 +5,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/rba1aji/lowlatency-realtime-conversation-ai-escalation-system/internal/core"
-	"github.com/rba1aji/lowlatency-realtime-conversation-ai-escalation-system/internal/db"
+	"github.com/kaphack/lowlatency-realtime-conversation-ai-escalation-system/internal/core"
+	"github.com/kaphack/lowlatency-realtime-conversation-ai-escalation-system/internal/db"
 )
 
 type Handler struct {
