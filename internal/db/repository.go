@@ -6,17 +6,17 @@ import (
 	"fmt"
 	"log"
 
-	_ "github.com/mattn/go-sqlite3"
-	"github.com/rba1aji/lowlatency-realtime-conversation-ai-escalation-system/internal/core"
+	_ "github.com/go-sql-driver/mysql"
 	"github.com/google/uuid"
+	"github.com/rba1aji/lowlatency-realtime-conversation-ai-escalation-system/internal/core"
 )
 
 type Repository struct {
 	db *sql.DB
 }
 
-func NewRepository(dbPath string) (*Repository, error) {
-	db, err := sql.Open("sqlite3", dbPath)
+func NewRepository(dsn string) (*Repository, error) {
+	db, err := sql.Open("mysql", dsn)
 	if err != nil {
 		return nil, fmt.Errorf("failed to open database: %w", err)
 	}
@@ -36,7 +36,7 @@ func NewRepository(dbPath string) (*Repository, error) {
 func (r *Repository) initSchema() error {
 	query := `
 	CREATE TABLE IF NOT EXISTS rules (
-		id TEXT PRIMARY KEY,
+		id VARCHAR(36) PRIMARY KEY,
 		name TEXT NOT NULL,
 		conditions JSON NOT NULL,
 		action TEXT NOT NULL
