@@ -18,10 +18,25 @@ type Repository struct {
 
 func NewRepository() (*Repository, error) {
 	user := os.Getenv("DB_USER")
+	if user == "" {
+		user = "hackathon_user"
+	}
 	pass := os.Getenv("DB_PASS")
+	if pass == "" {
+		pass = "HAck@th0n_2025"
+	}
 	host := os.Getenv("DB_HOST")
+	if host == "" {
+		host = "34.133.251.179"
+	}
 	port := os.Getenv("DB_PORT")
+	if port == "" {
+		port = "3306"
+	}
 	name := os.Getenv("DB_NAME")
+	if name == "" {
+		name = "escalation_db"
+	}
 
 	dsn := fmt.Sprintf(
 		"%s:%s@tcp(%s:%s)/%s?parseTime=true&charset=utf8mb4&loc=Local",
