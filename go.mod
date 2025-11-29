@@ -1,4 +1,4 @@
-module github.com/rba1aji/lowlatency-realtime-conversation-ai-escalation-system
+module github.com/kaphack/lowlatency-realtime-conversation-ai-escalation-system
 
 go 1.24.0
 
