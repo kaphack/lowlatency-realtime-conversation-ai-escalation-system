@@ -1,5 +1,6 @@
 package main
 
+//nice
 import (
 	"log"
 	"net"
@@ -15,11 +16,11 @@ func main() {
 		log.Fatalf("failed to listen: %v", err)
 	}
 
-	s := grpc.NewServer()
-	conversationv1.RegisterConversationStreamServer(s, grpcserver.NewConversationServer())
+	grpcServer := grpc.NewServer()
+	conversationv1.RegisterConversationStreamServer(grpcServer, grpcserver.NewConversationServer())
 
 	log.Println("gRPC Conversation Stream Server running on :50051")
-	if err := s.Serve(lis); err != nil {
+	if err := grpcServer.Serve(lis); err != nil {
 		log.Fatalf("failed to serve: %v", err)
 	}
 }

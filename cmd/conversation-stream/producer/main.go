@@ -1,5 +1,6 @@
 package main
 
+//nice
 import (
 	"bufio"
 	"context"
@@ -27,13 +28,13 @@ func main() {
 
 	log.Printf("Connecting to gRPC server at %s", *addr)
 
-	conn, err := grpc.Dial(*addr, grpc.WithTransportCredentials(insecure.NewCredentials()))
+	grpcConnection, err := grpc.NewClient(*addr, grpc.WithTransportCredentials(insecure.NewCredentials()))
 	if err != nil {
 		log.Fatalf("failed to connect: %v", err)
 	}
-	defer conn.Close()
+	defer grpcConnection.Close()
 
-	client := conversationv1.NewConversationStreamClient(conn)
+	client := conversationv1.NewConversationStreamClient(grpcConnection)
 
 	ctx, cancel := context.WithTimeout(context.Background(), 5*time.Minute)
 	defer cancel()
@@ -69,7 +70,7 @@ func main() {
 			},
 		}
 
-		log.Printf("Sending chunk: session=%s msg_id=%s text=%q", chunk.SessionId, chunk.MessageId, chunk.Text)
+		log.Printf("grpcProducer:main:Sending chunk: session=%s msg_id=%s text=%q", chunk.SessionId, chunk.MessageId, chunk.Text)
 
 		if err := stream.Send(chunk); err != nil {
 			log.Fatalf("failed to send chunk: %v", err)
@@ -87,6 +88,6 @@ func main() {
 		log.Fatalf("failed to receive ACK: %v", err)
 	}
 
-	log.Printf("Received ACK: session_id=%s last_message_id=%s success=%v message=%q",
+	log.Printf("grpcProducer:Received ACK: session_id=%s last_message_id=%s success=%v message=%q",
 		ack.SessionId, ack.LastMessageId, ack.Success, ack.Message)
 }

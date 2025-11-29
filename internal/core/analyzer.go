@@ -3,19 +3,24 @@ package core
 import (
 	"strings"
 	"unicode"
+
+	conversationv1 "github.com/kaphack/lowlatency-realtime-conversation-ai-escalation-system/proto"
 )
 
 // Analyzer is responsible for processing text and extracting metrics
-type Analyzer struct{}
+type Analyzer struct {
+}
 
 func NewAnalyzer() *Analyzer {
 	return &Analyzer{}
 }
 
 // Analyze returns a map of word counts from the input text
-func (a *Analyzer) Analyze(text string) map[string]int {
+func (a *Analyzer) Analyze(convoChunk *conversationv1.ConversationChunk) map[string]int {
+	text := convoChunk.Text
 	counts := make(map[string]int)
-	
+	//todo: get all rules from db check one by one if rules matches trigger action
+	//....
 	// Normalize and split
 	// This is a simple tokenizer. For production, consider regex or more robust NLP.
 	f := func(c rune) bool {
