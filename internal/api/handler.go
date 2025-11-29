@@ -80,6 +80,58 @@ func (h *Handler) CreateRule(w http.ResponseWriter, r *http.Request) {
 	json.NewEncoder(w).Encode(rule)
 }
 
+type RuleResponse struct {
+	ID         string           `json:"id"`
+	Name       string           `json:"name"`
+	Conditions []core.Condition `json:"conditions"`
+	Action     string           `json:"action"`
+}
+
+func (h *Handler) GetAllRules(w http.ResponseWriter, r *http.Request) {
+	if r.Method != http.MethodGet {
+		w.Header().Set("Content-Type", "application/json")
+		w.WriteHeader(http.StatusMethodNotAllowed)
+		json.NewEncoder(w).Encode(ErrorResponse{Error: "Method not allowed"})
+		return
+	}
+
+	rules, err := h.repo.GetAllRules()
+	if err != nil {
+		log.Printf("Failed to fetch rules: %v", err)
+		w.Header().Set("Content-Type", "application/json")
+		w.WriteHeader(http.StatusInternalServerError)
+		json.NewEncoder(w).Encode(ErrorResponse{Error: "Failed to fetch rules"})
+		return
+	}
+
+	var response []RuleResponse
+	for _, rule := range rules {
+		response = append(response, RuleResponse{
+			ID:         rule.ID,
+			Name:       rule.Name,
+			Conditions: rule.ParsedConditions,
+			Action:     rule.Action,
+		})
+	}
+
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(http.StatusOK)
+	json.NewEncoder(w).Encode(response)
+}
+
+func (h *Handler) HandleRules(w http.ResponseWriter, r *http.Request) {
+	switch r.Method {
+	case http.MethodGet:
+		h.GetAllRules(w, r)
+	case http.MethodPost:
+		h.CreateRule(w, r)
+	default:
+		w.Header().Set("Content-Type", "application/json")
+		w.WriteHeader(http.StatusMethodNotAllowed)
+		json.NewEncoder(w).Encode(ErrorResponse{Error: "Method not allowed"})
+	}
+}
+
 func (h *Handler) RegisterRoutes(mux *http.ServeMux) {
-	mux.HandleFunc("/api/rules", h.CreateRule)
+	mux.HandleFunc("/api/rules", h.HandleRules)
 }
