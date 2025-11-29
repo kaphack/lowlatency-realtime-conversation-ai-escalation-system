@@ -1,0 +1,1000 @@
+conv-1|user-1|Hello, I need help with account access.
+conv-1|user-1|It's been unresolved for days.
+conv-1|agent-1|I'm sorry to hear that. Let me assist you.
+conv-1|agent-1|I've checked your account and found the issue.
+conv-1|user-1|Thank you! That resolves it.
+conv-2|user-2|Hello, I need help with bug report.
+conv-2|user-2|It's been unresolved for days.
+conv-2|agent-2|I'm sorry to hear that. Let me assist you.
+conv-2|agent-2|I've checked your account and found the issue.
+conv-2|user-2|Thank you! That resolves it.
+conv-3|user-3|Hello, I need help with subscription cancel.
+conv-3|user-3|It's been unresolved for days.
+conv-3|agent-3|I'm sorry to hear that. Let me assist you.
+conv-3|agent-3|I've checked your account and found the issue.
+conv-3|user-3|Thank you! That resolves it.
+conv-4|user-4|Hello, I need help with account access.
+conv-4|user-4|It's been unresolved for days.
+conv-4|agent-4|I'm sorry to hear that. Let me assist you.
+conv-4|agent-4|I've checked your account and found the issue.
+conv-4|user-4|Thank you! That resolves it.
+conv-5|user-5|Hello, I need help with feature request.
+conv-5|user-5|It's been unresolved for days.
+conv-5|agent-5|I'm sorry to hear that. Let me assist you.
+conv-5|agent-5|I've checked your account and found the issue.
+conv-5|user-5|Thank you! That resolves it.
+conv-6|user-6|Hello, I need help with billing issue.
+conv-6|user-6|It's been unresolved for days.
+conv-6|agent-6|I'm sorry to hear that. Let me assist you.
+conv-6|agent-6|I've checked your account and found the issue.
+conv-6|user-6|Thank you! That resolves it.
+conv-7|user-7|Hello, I need help with billing issue.
+conv-7|user-7|It's been unresolved for days.
+conv-7|agent-7|I'm sorry to hear that. Let me assist you.
+conv-7|agent-7|I've checked your account and found the issue.
+conv-7|user-7|Thank you! That resolves it.
+conv-8|user-8|Hello, I need help with mobile app crash.
+conv-8|user-8|It's been unresolved for days.
+conv-8|agent-8|I'm sorry to hear that. Let me assist you.
+conv-8|agent-8|I've checked your account and found the issue.
+conv-8|user-8|Thank you! That resolves it.
+conv-9|user-9|Hello, I need help with password reset.
+conv-9|user-9|It's been unresolved for days.
+conv-9|agent-9|I'm sorry to hear that. Let me assist you.
+conv-9|agent-9|I've checked your account and found the issue.
+conv-9|user-9|Thank you! That resolves it.
+conv-10|user-10|Hello, I need help with duplicate charge.
+conv-10|user-10|It's been unresolved for days.
+conv-10|agent-10|I'm sorry to hear that. Let me assist you.
+conv-10|agent-10|I've checked your account and found the issue.
+conv-10|user-10|Thank you! That resolves it.
+conv-11|user-11|Hello, I need help with data export.
+conv-11|user-11|It's been unresolved for days.
+conv-11|agent-11|I'm sorry to hear that. Let me assist you.
+conv-11|agent-11|I've checked your account and found the issue.
+conv-11|user-11|Thank you! That resolves it.
+conv-12|user-12|Hello, I need help with refund request.
+conv-12|user-12|It's been unresolved for days.
+conv-12|agent-12|I'm sorry to hear that. Let me assist you.
+conv-12|agent-12|I've checked your account and found the issue.
+conv-12|user-12|Thank you! That resolves it.
+conv-13|user-13|Hello, I need help with password reset.
+conv-13|user-13|It's been unresolved for days.
+conv-13|agent-13|I'm sorry to hear that. Let me assist you.
+conv-13|agent-13|I've checked your account and found the issue.
+conv-13|user-13|Thank you! That resolves it.
+conv-14|user-14|Hello, I need help with refund request.
+conv-14|user-14|It's been unresolved for days.
+conv-14|agent-14|I'm sorry to hear that. Let me assist you.
+conv-14|agent-14|I've checked your account and found the issue.
+conv-14|user-14|Thank you! That resolves it.
+conv-15|user-15|Hello, I need help with service outage.
+conv-15|user-15|It's been unresolved for days.
+conv-15|agent-15|I'm sorry to hear that. Let me assist you.
+conv-15|agent-15|I've checked your account and found the issue.
+conv-15|user-15|Thank you! That resolves it.
+conv-16|user-16|Hello, I need help with password reset.
+conv-16|user-16|It's been unresolved for days.
+conv-16|agent-16|I'm sorry to hear that. Let me assist you.
+conv-16|agent-16|I've checked your account and found the issue.
+conv-16|user-16|Thank you! That resolves it.
+conv-17|user-17|Hello, I need help with subscription cancel.
+conv-17|user-17|It's been unresolved for days.
+conv-17|agent-17|I'm sorry to hear that. Let me assist you.
+conv-17|agent-17|I've checked your account and found the issue.
+conv-17|user-17|Thank you! That resolves it.
+conv-18|user-18|Hello, I need help with service outage.
+conv-18|user-18|It's been unresolved for days.
+conv-18|agent-18|I'm sorry to hear that. Let me assist you.
+conv-18|agent-18|I've checked your account and found the issue.
+conv-18|user-18|Thank you! That resolves it.
+conv-19|user-19|Hello, I need help with subscription cancel.
+conv-19|user-19|It's been unresolved for days.
+conv-19|agent-19|I'm sorry to hear that. Let me assist you.
+conv-19|agent-19|I've checked your account and found the issue.
+conv-19|user-19|Thank you! That resolves it.
+conv-20|user-20|Hello, I need help with refund request.
+conv-20|user-20|It's been unresolved for days.
+conv-20|agent-20|I'm sorry to hear that. Let me assist you.
+conv-20|agent-20|I've checked your account and found the issue.
+conv-20|user-20|Thank you! That resolves it.
+conv-21|user-21|Hello, I need help with refund request.
+conv-21|user-21|It's been unresolved for days.
+conv-21|agent-21|I'm sorry to hear that. Let me assist you.
+conv-21|agent-21|I've checked your account and found the issue.
+conv-21|user-21|Thank you! That resolves it.
+conv-22|user-22|Hello, I need help with order delay.
+conv-22|user-22|It's been unresolved for days.
+conv-22|agent-22|I'm sorry to hear that. Let me assist you.
+conv-22|agent-22|I've checked your account and found the issue.
+conv-22|user-22|Thank you! That resolves it.
+conv-23|user-23|Hello, I need help with mobile app crash.
+conv-23|user-23|It's been unresolved for days.
+conv-23|agent-23|I'm sorry to hear that. Let me assist you.
+conv-23|agent-23|I've checked your account and found the issue.
+conv-23|user-23|Thank you! That resolves it.
+conv-24|user-24|Hello, I need help with duplicate charge.
+conv-24|user-24|It's been unresolved for days.
+conv-24|agent-24|I'm sorry to hear that. Let me assist you.
+conv-24|agent-24|I've checked your account and found the issue.
+conv-24|user-24|Thank you! That resolves it.
+conv-25|user-25|Hello, I need help with service outage.
+conv-25|user-25|It's been unresolved for days.
+conv-25|agent-25|I'm sorry to hear that. Let me assist you.
+conv-25|agent-25|I've checked your account and found the issue.
+conv-25|user-25|Thank you! That resolves it.
+conv-26|user-26|Hello, I need help with refund request.
+conv-26|user-26|It's been unresolved for days.
+conv-26|agent-26|I'm sorry to hear that. Let me assist you.
+conv-26|agent-26|I've checked your account and found the issue.
+conv-26|user-26|Thank you! That resolves it.
+conv-27|user-27|Hello, I need help with mobile app crash.
+conv-27|user-27|It's been unresolved for days.
+conv-27|agent-27|I'm sorry to hear that. Let me assist you.
+conv-27|agent-27|I've checked your account and found the issue.
+conv-27|user-27|Thank you! That resolves it.
+conv-28|user-28|Hello, I need help with duplicate charge.
+conv-28|user-28|It's been unresolved for days.
+conv-28|agent-28|I'm sorry to hear that. Let me assist you.
+conv-28|agent-28|I've checked your account and found the issue.
+conv-28|user-28|Thank you! That resolves it.
+conv-29|user-29|Hello, I need help with upgrade plan.
+conv-29|user-29|It's been unresolved for days.
+conv-29|agent-29|I'm sorry to hear that. Let me assist you.
+conv-29|agent-29|I've checked your account and found the issue.
+conv-29|user-29|Thank you! That resolves it.
+conv-30|user-30|Hello, I need help with promo code.
+conv-30|user-30|It's been unresolved for days.
+conv-30|agent-30|I'm sorry to hear that. Let me assist you.
+conv-30|agent-30|I've checked your account and found the issue.
+conv-30|user-30|Thank you! That resolves it.
+conv-31|user-31|Hello, I need help with mobile app crash.
+conv-31|user-31|It's been unresolved for days.
+conv-31|agent-31|I'm sorry to hear that. Let me assist you.
+conv-31|agent-31|I've checked your account and found the issue.
+conv-31|user-31|Thank you! That resolves it.
+conv-32|user-32|Hello, I need help with privacy concern.
+conv-32|user-32|It's been unresolved for days.
+conv-32|agent-32|I'm sorry to hear that. Let me assist you.
+conv-32|agent-32|I've checked your account and found the issue.
+conv-32|user-32|Thank you! That resolves it.
+conv-33|user-33|Hello, I need help with billing issue.
+conv-33|user-33|It's been unresolved for days.
+conv-33|agent-33|I'm sorry to hear that. Let me assist you.
+conv-33|agent-33|I've checked your account and found the issue.
+conv-33|user-33|Thank you! That resolves it.
+conv-34|user-34|Hello, I need help with service outage.
+conv-34|user-34|It's been unresolved for days.
+conv-34|agent-34|I'm sorry to hear that. Let me assist you.
+conv-34|agent-34|I've checked your account and found the issue.
+conv-34|user-34|Thank you! That resolves it.
+conv-35|user-35|Hello, I need help with mobile app crash.
+conv-35|user-35|It's been unresolved for days.
+conv-35|agent-35|I'm sorry to hear that. Let me assist you.
+conv-35|agent-35|I've checked your account and found the issue.
+conv-35|user-35|Thank you! That resolves it.
+conv-36|user-36|Hello, I need help with billing issue.
+conv-36|user-36|It's been unresolved for days.
+conv-36|agent-36|I'm sorry to hear that. Let me assist you.
+conv-36|agent-36|I've checked your account and found the issue.
+conv-36|user-36|Thank you! That resolves it.
+conv-37|user-37|Hello, I need help with order delay.
+conv-37|user-37|It's been unresolved for days.
+conv-37|agent-37|I'm sorry to hear that. Let me assist you.
+conv-37|agent-37|I've checked your account and found the issue.
+conv-37|user-37|Thank you! That resolves it.
+conv-38|user-38|Hello, I need help with order delay.
+conv-38|user-38|It's been unresolved for days.
+conv-38|agent-38|I'm sorry to hear that. Let me assist you.
+conv-38|agent-38|I've checked your account and found the issue.
+conv-38|user-38|Thank you! That resolves it.
+conv-39|user-39|Hello, I need help with feature request.
+conv-39|user-39|It's been unresolved for days.
+conv-39|agent-39|I'm sorry to hear that. Let me assist you.
+conv-39|agent-39|I've checked your account and found the issue.
+conv-39|user-39|Thank you! That resolves it.
+conv-40|user-40|Hello, I need help with password reset.
+conv-40|user-40|It's been unresolved for days.
+conv-40|agent-40|I'm sorry to hear that. Let me assist you.
+conv-40|agent-40|I've checked your account and found the issue.
+conv-40|user-40|Thank you! That resolves it.
+conv-41|user-41|Hello, I need help with duplicate charge.
+conv-41|user-41|It's been unresolved for days.
+conv-41|agent-41|I'm sorry to hear that. Let me assist you.
+conv-41|agent-41|I've checked your account and found the issue.
+conv-41|user-41|Thank you! That resolves it.
+conv-42|user-42|Hello, I need help with refund request.
+conv-42|user-42|It's been unresolved for days.
+conv-42|agent-42|I'm sorry to hear that. Let me assist you.
+conv-42|agent-42|I've checked your account and found the issue.
+conv-42|user-42|Thank you! That resolves it.
+conv-43|user-43|Hello, I need help with password reset.
+conv-43|user-43|It's been unresolved for days.
+conv-43|agent-43|I'm sorry to hear that. Let me assist you.
+conv-43|agent-43|I've checked your account and found the issue.
+conv-43|user-43|Thank you! That resolves it.
+conv-44|user-44|Hello, I need help with order delay.
+conv-44|user-44|It's been unresolved for days.
+conv-44|agent-44|I'm sorry to hear that. Let me assist you.
+conv-44|agent-44|I've checked your account and found the issue.
+conv-44|user-44|Thank you! That resolves it.
+conv-45|user-45|Hello, I need help with data export.
+conv-45|user-45|It's been unresolved for days.
+conv-45|agent-45|I'm sorry to hear that. Let me assist you.
+conv-45|agent-45|I've checked your account and found the issue.
+conv-45|user-45|Thank you! That resolves it.
+conv-46|user-46|Hello, I need help with privacy concern.
+conv-46|user-46|It's been unresolved for days.
+conv-46|agent-46|I'm sorry to hear that. Let me assist you.
+conv-46|agent-46|I've checked your account and found the issue.
+conv-46|user-46|Thank you! That resolves it.
+conv-47|user-47|Hello, I need help with bug report.
+conv-47|user-47|It's been unresolved for days.
+conv-47|agent-47|I'm sorry to hear that. Let me assist you.
+conv-47|agent-47|I've checked your account and found the issue.
+conv-47|user-47|Thank you! That resolves it.
+conv-48|user-48|Hello, I need help with subscription cancel.
+conv-48|user-48|It's been unresolved for days.
+conv-48|agent-48|I'm sorry to hear that. Let me assist you.
+conv-48|agent-48|I've checked your account and found the issue.
+conv-48|user-48|Thank you! That resolves it.
+conv-49|user-49|Hello, I need help with subscription cancel.
+conv-49|user-49|It's been unresolved for days.
+conv-49|agent-49|I'm sorry to hear that. Let me assist you.
+conv-49|agent-49|I've checked your account and found the issue.
+conv-49|user-49|Thank you! That resolves it.
+conv-50|user-50|Hello, I need help with upgrade plan.
+conv-50|user-50|It's been unresolved for days.
+conv-50|agent-50|I'm sorry to hear that. Let me assist you.
+conv-50|agent-50|I've checked your account and found the issue.
+conv-50|user-50|Thank you! That resolves it.
+conv-51|user-51|Hello, I need help with password reset.
+conv-51|user-51|It's been unresolved for days.
+conv-51|agent-51|I'm sorry to hear that. Let me assist you.
+conv-51|agent-51|I've checked your account and found the issue.
+conv-51|user-51|Thank you! That resolves it.
+conv-52|user-52|Hello, I need help with privacy concern.
+conv-52|user-52|It's been unresolved for days.
+conv-52|agent-52|I'm sorry to hear that. Let me assist you.
+conv-52|agent-52|I've checked your account and found the issue.
+conv-52|user-52|Thank you! That resolves it.
+conv-53|user-53|Hello, I need help with upgrade plan.
+conv-53|user-53|It's been unresolved for days.
+conv-53|agent-53|I'm sorry to hear that. Let me assist you.
+conv-53|agent-53|I've checked your account and found the issue.
+conv-53|user-53|Thank you! That resolves it.
+conv-54|user-54|Hello, I need help with password reset.
+conv-54|user-54|It's been unresolved for days.
+conv-54|agent-54|I'm sorry to hear that. Let me assist you.
+conv-54|agent-54|I've checked your account and found the issue.
+conv-54|user-54|Thank you! That resolves it.
+conv-55|user-55|Hello, I need help with order delay.
+conv-55|user-55|It's been unresolved for days.
+conv-55|agent-55|I'm sorry to hear that. Let me assist you.
+conv-55|agent-55|I've checked your account and found the issue.
+conv-55|user-55|Thank you! That resolves it.
+conv-56|user-56|Hello, I need help with feature request.
+conv-56|user-56|It's been unresolved for days.
+conv-56|agent-56|I'm sorry to hear that. Let me assist you.
+conv-56|agent-56|I've checked your account and found the issue.
+conv-56|user-56|Thank you! That resolves it.
+conv-57|user-57|Hello, I need help with upgrade plan.
+conv-57|user-57|It's been unresolved for days.
+conv-57|agent-57|I'm sorry to hear that. Let me assist you.
+conv-57|agent-57|I've checked your account and found the issue.
+conv-57|user-57|Thank you! That resolves it.
+conv-58|user-58|Hello, I need help with privacy concern.
+conv-58|user-58|It's been unresolved for days.
+conv-58|agent-58|I'm sorry to hear that. Let me assist you.
+conv-58|agent-58|I've checked your account and found the issue.
+conv-58|user-58|Thank you! That resolves it.
+conv-59|user-59|Hello, I need help with password reset.
+conv-59|user-59|It's been unresolved for days.
+conv-59|agent-59|I'm sorry to hear that. Let me assist you.
+conv-59|agent-59|I've checked your account and found the issue.
+conv-59|user-59|Thank you! That resolves it.
+conv-60|user-60|Hello, I need help with refund request.
+conv-60|user-60|It's been unresolved for days.
+conv-60|agent-60|I'm sorry to hear that. Let me assist you.
+conv-60|agent-60|I've checked your account and found the issue.
+conv-60|user-60|Thank you! That resolves it.
+conv-61|user-61|Hello, I need help with billing issue.
+conv-61|user-61|It's been unresolved for days.
+conv-61|agent-61|I'm sorry to hear that. Let me assist you.
+conv-61|agent-61|I've checked your account and found the issue.
+conv-61|user-61|Thank you! That resolves it.
+conv-62|user-62|Hello, I need help with service outage.
+conv-62|user-62|It's been unresolved for days.
+conv-62|agent-62|I'm sorry to hear that. Let me assist you.
+conv-62|agent-62|I've checked your account and found the issue.
+conv-62|user-62|Thank you! That resolves it.
+conv-63|user-63|Hello, I need help with mobile app crash.
+conv-63|user-63|It's been unresolved for days.
+conv-63|agent-63|I'm sorry to hear that. Let me assist you.
+conv-63|agent-63|I've checked your account and found the issue.
+conv-63|user-63|Thank you! That resolves it.
+conv-64|user-64|Hello, I need help with bug report.
+conv-64|user-64|It's been unresolved for days.
+conv-64|agent-64|I'm sorry to hear that. Let me assist you.
+conv-64|agent-64|I've checked your account and found the issue.
+conv-64|user-64|Thank you! That resolves it.
+conv-65|user-65|Hello, I need help with password reset.
+conv-65|user-65|It's been unresolved for days.
+conv-65|agent-65|I'm sorry to hear that. Let me assist you.
+conv-65|agent-65|I've checked your account and found the issue.
+conv-65|user-65|Thank you! That resolves it.
+conv-66|user-66|Hello, I need help with mobile app crash.
+conv-66|user-66|It's been unresolved for days.
+conv-66|agent-66|I'm sorry to hear that. Let me assist you.
+conv-66|agent-66|I've checked your account and found the issue.
+conv-66|user-66|Thank you! That resolves it.
+conv-67|user-67|Hello, I need help with data export.
+conv-67|user-67|It's been unresolved for days.
+conv-67|agent-67|I'm sorry to hear that. Let me assist you.
+conv-67|agent-67|I've checked your account and found the issue.
+conv-67|user-67|Thank you! That resolves it.
+conv-68|user-68|Hello, I need help with upgrade plan.
+conv-68|user-68|It's been unresolved for days.
+conv-68|agent-68|I'm sorry to hear that. Let me assist you.
+conv-68|agent-68|I've checked your account and found the issue.
+conv-68|user-68|Thank you! That resolves it.
+conv-69|user-69|Hello, I need help with feature request.
+conv-69|user-69|It's been unresolved for days.
+conv-69|agent-69|I'm sorry to hear that. Let me assist you.
+conv-69|agent-69|I've checked your account and found the issue.
+conv-69|user-69|Thank you! That resolves it.
+conv-70|user-70|Hello, I need help with password reset.
+conv-70|user-70|It's been unresolved for days.
+conv-70|agent-70|I'm sorry to hear that. Let me assist you.
+conv-70|agent-70|I've checked your account and found the issue.
+conv-70|user-70|Thank you! That resolves it.
+conv-71|user-71|Hello, I need help with feature request.
+conv-71|user-71|It's been unresolved for days.
+conv-71|agent-71|I'm sorry to hear that. Let me assist you.
+conv-71|agent-71|I've checked your account and found the issue.
+conv-71|user-71|Thank you! That resolves it.
+conv-72|user-72|Hello, I need help with privacy concern.
+conv-72|user-72|It's been unresolved for days.
+conv-72|agent-72|I'm sorry to hear that. Let me assist you.
+conv-72|agent-72|I've checked your account and found the issue.
+conv-72|user-72|Thank you! That resolves it.
+conv-73|user-73|Hello, I need help with billing issue.
+conv-73|user-73|It's been unresolved for days.
+conv-73|agent-73|I'm sorry to hear that. Let me assist you.
+conv-73|agent-73|I've checked your account and found the issue.
+conv-73|user-73|Thank you! That resolves it.
+conv-74|user-74|Hello, I need help with upgrade plan.
+conv-74|user-74|It's been unresolved for days.
+conv-74|agent-74|I'm sorry to hear that. Let me assist you.
+conv-74|agent-74|I've checked your account and found the issue.
+conv-74|user-74|Thank you! That resolves it.
+conv-75|user-75|Hello, I need help with billing issue.
+conv-75|user-75|It's been unresolved for days.
+conv-75|agent-75|I'm sorry to hear that. Let me assist you.
+conv-75|agent-75|I've checked your account and found the issue.
+conv-75|user-75|Thank you! That resolves it.
+conv-76|user-76|Hello, I need help with refund request.
+conv-76|user-76|It's been unresolved for days.
+conv-76|agent-76|I'm sorry to hear that. Let me assist you.
+conv-76|agent-76|I've checked your account and found the issue.
+conv-76|user-76|Thank you! That resolves it.
+conv-77|user-77|Hello, I need help with data export.
+conv-77|user-77|It's been unresolved for days.
+conv-77|agent-77|I'm sorry to hear that. Let me assist you.
+conv-77|agent-77|I've checked your account and found the issue.
+conv-77|user-77|Thank you! That resolves it.
+conv-78|user-78|Hello, I need help with service outage.
+conv-78|user-78|It's been unresolved for days.
+conv-78|agent-78|I'm sorry to hear that. Let me assist you.
+conv-78|agent-78|I've checked your account and found the issue.
+conv-78|user-78|Thank you! That resolves it.
+conv-79|user-79|Hello, I need help with mobile app crash.
+conv-79|user-79|It's been unresolved for days.
+conv-79|agent-79|I'm sorry to hear that. Let me assist you.
+conv-79|agent-79|I've checked your account and found the issue.
+conv-79|user-79|Thank you! That resolves it.
+conv-80|user-80|Hello, I need help with promo code.
+conv-80|user-80|It's been unresolved for days.
+conv-80|agent-80|I'm sorry to hear that. Let me assist you.
+conv-80|agent-80|I've checked your account and found the issue.
+conv-80|user-80|Thank you! That resolves it.
+conv-81|user-81|Hello, I need help with upgrade plan.
+conv-81|user-81|It's been unresolved for days.
+conv-81|agent-81|I'm sorry to hear that. Let me assist you.
+conv-81|agent-81|I've checked your account and found the issue.
+conv-81|user-81|Thank you! That resolves it.
+conv-82|user-82|Hello, I need help with service outage.
+conv-82|user-82|It's been unresolved for days.
+conv-82|agent-82|I'm sorry to hear that. Let me assist you.
+conv-82|agent-82|I've checked your account and found the issue.
+conv-82|user-82|Thank you! That resolves it.
+conv-83|user-83|Hello, I need help with feature request.
+conv-83|user-83|It's been unresolved for days.
+conv-83|agent-83|I'm sorry to hear that. Let me assist you.
+conv-83|agent-83|I've checked your account and found the issue.
+conv-83|user-83|Thank you! That resolves it.
+conv-84|user-84|Hello, I need help with duplicate charge.
+conv-84|user-84|It's been unresolved for days.
+conv-84|agent-84|I'm sorry to hear that. Let me assist you.
+conv-84|agent-84|I've checked your account and found the issue.
+conv-84|user-84|Thank you! That resolves it.
+conv-85|user-85|Hello, I need help with upgrade plan.
+conv-85|user-85|It's been unresolved for days.
+conv-85|agent-85|I'm sorry to hear that. Let me assist you.
+conv-85|agent-85|I've checked your account and found the issue.
+conv-85|user-85|Thank you! That resolves it.
+conv-86|user-86|Hello, I need help with order delay.
+conv-86|user-86|It's been unresolved for days.
+conv-86|agent-86|I'm sorry to hear that. Let me assist you.
+conv-86|agent-86|I've checked your account and found the issue.
+conv-86|user-86|Thank you! That resolves it.
+conv-87|user-87|Hello, I need help with data export.
+conv-87|user-87|It's been unresolved for days.
+conv-87|agent-87|I'm sorry to hear that. Let me assist you.
+conv-87|agent-87|I've checked your account and found the issue.
+conv-87|user-87|Thank you! That resolves it.
+conv-88|user-88|Hello, I need help with subscription cancel.
+conv-88|user-88|It's been unresolved for days.
+conv-88|agent-88|I'm sorry to hear that. Let me assist you.
+conv-88|agent-88|I've checked your account and found the issue.
+conv-88|user-88|Thank you! That resolves it.
+conv-89|user-89|Hello, I need help with refund request.
+conv-89|user-89|It's been unresolved for days.
+conv-89|agent-89|I'm sorry to hear that. Let me assist you.
+conv-89|agent-89|I've checked your account and found the issue.
+conv-89|user-89|Thank you! That resolves it.
+conv-90|user-90|Hello, I need help with bug report.
+conv-90|user-90|It's been unresolved for days.
+conv-90|agent-90|I'm sorry to hear that. Let me assist you.
+conv-90|agent-90|I've checked your account and found the issue.
+conv-90|user-90|Thank you! That resolves it.
+conv-91|user-91|Hello, I need help with duplicate charge.
+conv-91|user-91|It's been unresolved for days.
+conv-91|agent-91|I'm sorry to hear that. Let me assist you.
+conv-91|agent-91|I've checked your account and found the issue.
+conv-91|user-91|Thank you! That resolves it.
+conv-92|user-92|Hello, I need help with duplicate charge.
+conv-92|user-92|It's been unresolved for days.
+conv-92|agent-92|I'm sorry to hear that. Let me assist you.
+conv-92|agent-92|I've checked your account and found the issue.
+conv-92|user-92|Thank you! That resolves it.
+conv-93|user-93|Hello, I need help with account access.
+conv-93|user-93|It's been unresolved for days.
+conv-93|agent-93|I'm sorry to hear that. Let me assist you.
+conv-93|agent-93|I've checked your account and found the issue.
+conv-93|user-93|Thank you! That resolves it.
+conv-94|user-94|Hello, I need help with feature request.
+conv-94|user-94|It's been unresolved for days.
+conv-94|agent-94|I'm sorry to hear that. Let me assist you.
+conv-94|agent-94|I've checked your account and found the issue.
+conv-94|user-94|Thank you! That resolves it.
+conv-95|user-95|Hello, I need help with promo code.
+conv-95|user-95|It's been unresolved for days.
+conv-95|agent-95|I'm sorry to hear that. Let me assist you.
+conv-95|agent-95|I've checked your account and found the issue.
+conv-95|user-95|Thank you! That resolves it.
+conv-96|user-96|Hello, I need help with duplicate charge.
+conv-96|user-96|It's been unresolved for days.
+conv-96|agent-96|I'm sorry to hear that. Let me assist you.
+conv-96|agent-96|I've checked your account and found the issue.
+conv-96|user-96|Thank you! That resolves it.
+conv-97|user-97|Hello, I need help with refund request.
+conv-97|user-97|It's been unresolved for days.
+conv-97|agent-97|I'm sorry to hear that. Let me assist you.
+conv-97|agent-97|I've checked your account and found the issue.
+conv-97|user-97|Thank you! That resolves it.
+conv-98|user-98|Hello, I need help with promo code.
+conv-98|user-98|It's been unresolved for days.
+conv-98|agent-98|I'm sorry to hear that. Let me assist you.
+conv-98|agent-98|I've checked your account and found the issue.
+conv-98|user-98|Thank you! That resolves it.
+conv-99|user-99|Hello, I need help with duplicate charge.
+conv-99|user-99|It's been unresolved for days.
+conv-99|agent-99|I'm sorry to hear that. Let me assist you.
+conv-99|agent-99|I've checked your account and found the issue.
+conv-99|user-99|Thank you! That resolves it.
+conv-100|user-100|Hello, I need help with billing issue.
+conv-100|user-100|It's been unresolved for days.
+conv-100|agent-100|I'm sorry to hear that. Let me assist you.
+conv-100|agent-100|I've checked your account and found the issue.
+conv-100|user-100|Thank you! That resolves it.
+conv-101|user-101|Hello, I need help with refund request.
+conv-101|user-101|It's been unresolved for days.
+conv-101|agent-101|I'm sorry to hear that. Let me assist you.
+conv-101|agent-101|I've checked your account and found the issue.
+conv-101|user-101|Thank you! That resolves it.
+conv-102|user-102|Hello, I need help with account access.
+conv-102|user-102|It's been unresolved for days.
+conv-102|agent-102|I'm sorry to hear that. Let me assist you.
+conv-102|agent-102|I've checked your account and found the issue.
+conv-102|user-102|Thank you! That resolves it.
+conv-103|user-103|Hello, I need help with billing issue.
+conv-103|user-103|It's been unresolved for days.
+conv-103|agent-103|I'm sorry to hear that. Let me assist you.
+conv-103|agent-103|I've checked your account and found the issue.
+conv-103|user-103|Thank you! That resolves it.
+conv-104|user-104|Hello, I need help with promo code.
+conv-104|user-104|It's been unresolved for days.
+conv-104|agent-104|I'm sorry to hear that. Let me assist you.
+conv-104|agent-104|I've checked your account and found the issue.
+conv-104|user-104|Thank you! That resolves it.
+conv-105|user-105|Hello, I need help with upgrade plan.
+conv-105|user-105|It's been unresolved for days.
+conv-105|agent-105|I'm sorry to hear that. Let me assist you.
+conv-105|agent-105|I've checked your account and found the issue.
+conv-105|user-105|Thank you! That resolves it.
+conv-106|user-106|Hello, I need help with promo code.
+conv-106|user-106|It's been unresolved for days.
+conv-106|agent-106|I'm sorry to hear that. Let me assist you.
+conv-106|agent-106|I've checked your account and found the issue.
+conv-106|user-106|Thank you! That resolves it.
+conv-107|user-107|Hello, I need help with promo code.
+conv-107|user-107|It's been unresolved for days.
+conv-107|agent-107|I'm sorry to hear that. Let me assist you.
+conv-107|agent-107|I've checked your account and found the issue.
+conv-107|user-107|Thank you! That resolves it.
+conv-108|user-108|Hello, I need help with order delay.
+conv-108|user-108|It's been unresolved for days.
+conv-108|agent-108|I'm sorry to hear that. Let me assist you.
+conv-108|agent-108|I've checked your account and found the issue.
+conv-108|user-108|Thank you! That resolves it.
+conv-109|user-109|Hello, I need help with password reset.
+conv-109|user-109|It's been unresolved for days.
+conv-109|agent-109|I'm sorry to hear that. Let me assist you.
+conv-109|agent-109|I've checked your account and found the issue.
+conv-109|user-109|Thank you! That resolves it.
+conv-110|user-110|Hello, I need help with subscription cancel.
+conv-110|user-110|It's been unresolved for days.
+conv-110|agent-110|I'm sorry to hear that. Let me assist you.
+conv-110|agent-110|I've checked your account and found the issue.
+conv-110|user-110|Thank you! That resolves it.
+conv-111|user-111|Hello, I need help with service outage.
+conv-111|user-111|It's been unresolved for days.
+conv-111|agent-111|I'm sorry to hear that. Let me assist you.
+conv-111|agent-111|I've checked your account and found the issue.
+conv-111|user-111|Thank you! That resolves it.
+conv-112|user-112|Hello, I need help with service outage.
+conv-112|user-112|It's been unresolved for days.
+conv-112|agent-112|I'm sorry to hear that. Let me assist you.
+conv-112|agent-112|I've checked your account and found the issue.
+conv-112|user-112|Thank you! That resolves it.
+conv-113|user-113|Hello, I need help with service outage.
+conv-113|user-113|It's been unresolved for days.
+conv-113|agent-113|I'm sorry to hear that. Let me assist you.
+conv-113|agent-113|I've checked your account and found the issue.
+conv-113|user-113|Thank you! That resolves it.
+conv-114|user-114|Hello, I need help with mobile app crash.
+conv-114|user-114|It's been unresolved for days.
+conv-114|agent-114|I'm sorry to hear that. Let me assist you.
+conv-114|agent-114|I've checked your account and found the issue.
+conv-114|user-114|Thank you! That resolves it.
+conv-115|user-115|Hello, I need help with bug report.
+conv-115|user-115|It's been unresolved for days.
+conv-115|agent-115|I'm sorry to hear that. Let me assist you.
+conv-115|agent-115|I've checked your account and found the issue.
+conv-115|user-115|Thank you! That resolves it.
+conv-116|user-116|Hello, I need help with bug report.
+conv-116|user-116|It's been unresolved for days.
+conv-116|agent-116|I'm sorry to hear that. Let me assist you.
+conv-116|agent-116|I've checked your account and found the issue.
+conv-116|user-116|Thank you! That resolves it.
+conv-117|user-117|Hello, I need help with duplicate charge.
+conv-117|user-117|It's been unresolved for days.
+conv-117|agent-117|I'm sorry to hear that. Let me assist you.
+conv-117|agent-117|I've checked your account and found the issue.
+conv-117|user-117|Thank you! That resolves it.
+conv-118|user-118|Hello, I need help with duplicate charge.
+conv-118|user-118|It's been unresolved for days.
+conv-118|agent-118|I'm sorry to hear that. Let me assist you.
+conv-118|agent-118|I've checked your account and found the issue.
+conv-118|user-118|Thank you! That resolves it.
+conv-119|user-119|Hello, I need help with account access.
+conv-119|user-119|It's been unresolved for days.
+conv-119|agent-119|I'm sorry to hear that. Let me assist you.
+conv-119|agent-119|I've checked your account and found the issue.
+conv-119|user-119|Thank you! That resolves it.
+conv-120|user-120|Hello, I need help with refund request.
+conv-120|user-120|It's been unresolved for days.
+conv-120|agent-120|I'm sorry to hear that. Let me assist you.
+conv-120|agent-120|I've checked your account and found the issue.
+conv-120|user-120|Thank you! That resolves it.
+conv-121|user-121|Hello, I need help with upgrade plan.
+conv-121|user-121|It's been unresolved for days.
+conv-121|agent-121|I'm sorry to hear that. Let me assist you.
+conv-121|agent-121|I've checked your account and found the issue.
+conv-121|user-121|Thank you! That resolves it.
+conv-122|user-122|Hello, I need help with privacy concern.
+conv-122|user-122|It's been unresolved for days.
+conv-122|agent-122|I'm sorry to hear that. Let me assist you.
+conv-122|agent-122|I've checked your account and found the issue.
+conv-122|user-122|Thank you! That resolves it.
+conv-123|user-123|Hello, I need help with account access.
+conv-123|user-123|It's been unresolved for days.
+conv-123|agent-123|I'm sorry to hear that. Let me assist you.
+conv-123|agent-123|I've checked your account and found the issue.
+conv-123|user-123|Thank you! That resolves it.
+conv-124|user-124|Hello, I need help with upgrade plan.
+conv-124|user-124|It's been unresolved for days.
+conv-124|agent-124|I'm sorry to hear that. Let me assist you.
+conv-124|agent-124|I've checked your account and found the issue.
+conv-124|user-124|Thank you! That resolves it.
+conv-125|user-125|Hello, I need help with bug report.
+conv-125|user-125|It's been unresolved for days.
+conv-125|agent-125|I'm sorry to hear that. Let me assist you.
+conv-125|agent-125|I've checked your account and found the issue.
+conv-125|user-125|Thank you! That resolves it.
+conv-126|user-126|Hello, I need help with promo code.
+conv-126|user-126|It's been unresolved for days.
+conv-126|agent-126|I'm sorry to hear that. Let me assist you.
+conv-126|agent-126|I've checked your account and found the issue.
+conv-126|user-126|Thank you! That resolves it.
+conv-127|user-127|Hello, I need help with mobile app crash.
+conv-127|user-127|It's been unresolved for days.
+conv-127|agent-127|I'm sorry to hear that. Let me assist you.
+conv-127|agent-127|I've checked your account and found the issue.
+conv-127|user-127|Thank you! That resolves it.
+conv-128|user-128|Hello, I need help with privacy concern.
+conv-128|user-128|It's been unresolved for days.
+conv-128|agent-128|I'm sorry to hear that. Let me assist you.
+conv-128|agent-128|I've checked your account and found the issue.
+conv-128|user-128|Thank you! That resolves it.
+conv-129|user-129|Hello, I need help with data export.
+conv-129|user-129|It's been unresolved for days.
+conv-129|agent-129|I'm sorry to hear that. Let me assist you.
+conv-129|agent-129|I've checked your account and found the issue.
+conv-129|user-129|Thank you! That resolves it.
+conv-130|user-130|Hello, I need help with mobile app crash.
+conv-130|user-130|It's been unresolved for days.
+conv-130|agent-130|I'm sorry to hear that. Let me assist you.
+conv-130|agent-130|I've checked your account and found the issue.
+conv-130|user-130|Thank you! That resolves it.
+conv-131|user-131|Hello, I need help with data export.
+conv-131|user-131|It's been unresolved for days.
+conv-131|agent-131|I'm sorry to hear that. Let me assist you.
+conv-131|agent-131|I've checked your account and found the issue.
+conv-131|user-131|Thank you! That resolves it.
+conv-132|user-132|Hello, I need help with order delay.
+conv-132|user-132|It's been unresolved for days.
+conv-132|agent-132|I'm sorry to hear that. Let me assist you.
+conv-132|agent-132|I've checked your account and found the issue.
+conv-132|user-132|Thank you! That resolves it.
+conv-133|user-133|Hello, I need help with feature request.
+conv-133|user-133|It's been unresolved for days.
+conv-133|agent-133|I'm sorry to hear that. Let me assist you.
+conv-133|agent-133|I've checked your account and found the issue.
+conv-133|user-133|Thank you! That resolves it.
+conv-134|user-134|Hello, I need help with feature request.
+conv-134|user-134|It's been unresolved for days.
+conv-134|agent-134|I'm sorry to hear that. Let me assist you.
+conv-134|agent-134|I've checked your account and found the issue.
+conv-134|user-134|Thank you! That resolves it.
+conv-135|user-135|Hello, I need help with upgrade plan.
+conv-135|user-135|It's been unresolved for days.
+conv-135|agent-135|I'm sorry to hear that. Let me assist you.
+conv-135|agent-135|I've checked your account and found the issue.
+conv-135|user-135|Thank you! That resolves it.
+conv-136|user-136|Hello, I need help with billing issue.
+conv-136|user-136|It's been unresolved for days.
+conv-136|agent-136|I'm sorry to hear that. Let me assist you.
+conv-136|agent-136|I've checked your account and found the issue.
+conv-136|user-136|Thank you! That resolves it.
+conv-137|user-137|Hello, I need help with data export.
+conv-137|user-137|It's been unresolved for days.
+conv-137|agent-137|I'm sorry to hear that. Let me assist you.
+conv-137|agent-137|I've checked your account and found the issue.
+conv-137|user-137|Thank you! That resolves it.
+conv-138|user-138|Hello, I need help with bug report.
+conv-138|user-138|It's been unresolved for days.
+conv-138|agent-138|I'm sorry to hear that. Let me assist you.
+conv-138|agent-138|I've checked your account and found the issue.
+conv-138|user-138|Thank you! That resolves it.
+conv-139|user-139|Hello, I need help with privacy concern.
+conv-139|user-139|It's been unresolved for days.
+conv-139|agent-139|I'm sorry to hear that. Let me assist you.
+conv-139|agent-139|I've checked your account and found the issue.
+conv-139|user-139|Thank you! That resolves it.
+conv-140|user-140|Hello, I need help with promo code.
+conv-140|user-140|It's been unresolved for days.
+conv-140|agent-140|I'm sorry to hear that. Let me assist you.
+conv-140|agent-140|I've checked your account and found the issue.
+conv-140|user-140|Thank you! That resolves it.
+conv-141|user-141|Hello, I need help with refund request.
+conv-141|user-141|It's been unresolved for days.
+conv-141|agent-141|I'm sorry to hear that. Let me assist you.
+conv-141|agent-141|I've checked your account and found the issue.
+conv-141|user-141|Thank you! That resolves it.
+conv-142|user-142|Hello, I need help with subscription cancel.
+conv-142|user-142|It's been unresolved for days.
+conv-142|agent-142|I'm sorry to hear that. Let me assist you.
+conv-142|agent-142|I've checked your account and found the issue.
+conv-142|user-142|Thank you! That resolves it.
+conv-143|user-143|Hello, I need help with duplicate charge.
+conv-143|user-143|It's been unresolved for days.
+conv-143|agent-143|I'm sorry to hear that. Let me assist you.
+conv-143|agent-143|I've checked your account and found the issue.
+conv-143|user-143|Thank you! That resolves it.
+conv-144|user-144|Hello, I need help with order delay.
+conv-144|user-144|It's been unresolved for days.
+conv-144|agent-144|I'm sorry to hear that. Let me assist you.
+conv-144|agent-144|I've checked your account and found the issue.
+conv-144|user-144|Thank you! That resolves it.
+conv-145|user-145|Hello, I need help with privacy concern.
+conv-145|user-145|It's been unresolved for days.
+conv-145|agent-145|I'm sorry to hear that. Let me assist you.
+conv-145|agent-145|I've checked your account and found the issue.
+conv-145|user-145|Thank you! That resolves it.
+conv-146|user-146|Hello, I need help with upgrade plan.
+conv-146|user-146|It's been unresolved for days.
+conv-146|agent-146|I'm sorry to hear that. Let me assist you.
+conv-146|agent-146|I've checked your account and found the issue.
+conv-146|user-146|Thank you! That resolves it.
+conv-147|user-147|Hello, I need help with account access.
+conv-147|user-147|It's been unresolved for days.
+conv-147|agent-147|I'm sorry to hear that. Let me assist you.
+conv-147|agent-147|I've checked your account and found the issue.
+conv-147|user-147|Thank you! That resolves it.
+conv-148|user-148|Hello, I need help with duplicate charge.
+conv-148|user-148|It's been unresolved for days.
+conv-148|agent-148|I'm sorry to hear that. Let me assist you.
+conv-148|agent-148|I've checked your account and found the issue.
+conv-148|user-148|Thank you! That resolves it.
+conv-149|user-149|Hello, I need help with privacy concern.
+conv-149|user-149|It's been unresolved for days.
+conv-149|agent-149|I'm sorry to hear that. Let me assist you.
+conv-149|agent-149|I've checked your account and found the issue.
+conv-149|user-149|Thank you! That resolves it.
+conv-150|user-150|Hello, I need help with data export.
+conv-150|user-150|It's been unresolved for days.
+conv-150|agent-150|I'm sorry to hear that. Let me assist you.
+conv-150|agent-150|I've checked your account and found the issue.
+conv-150|user-150|Thank you! That resolves it.
+conv-151|user-151|Hello, I need help with billing issue.
+conv-151|user-151|It's been unresolved for days.
+conv-151|agent-151|I'm sorry to hear that. Let me assist you.
+conv-151|agent-151|I've checked your account and found the issue.
+conv-151|user-151|Thank you! That resolves it.
+conv-152|user-152|Hello, I need help with subscription cancel.
+conv-152|user-152|It's been unresolved for days.
+conv-152|agent-152|I'm sorry to hear that. Let me assist you.
+conv-152|agent-152|I've checked your account and found the issue.
+conv-152|user-152|Thank you! That resolves it.
+conv-153|user-153|Hello, I need help with promo code.
+conv-153|user-153|It's been unresolved for days.
+conv-153|agent-153|I'm sorry to hear that. Let me assist you.
+conv-153|agent-153|I've checked your account and found the issue.
+conv-153|user-153|Thank you! That resolves it.
+conv-154|user-154|Hello, I need help with upgrade plan.
+conv-154|user-154|It's been unresolved for days.
+conv-154|agent-154|I'm sorry to hear that. Let me assist you.
+conv-154|agent-154|I've checked your account and found the issue.
+conv-154|user-154|Thank you! That resolves it.
+conv-155|user-155|Hello, I need help with mobile app crash.
+conv-155|user-155|It's been unresolved for days.
+conv-155|agent-155|I'm sorry to hear that. Let me assist you.
+conv-155|agent-155|I've checked your account and found the issue.
+conv-155|user-155|Thank you! That resolves it.
+conv-156|user-156|Hello, I need help with duplicate charge.
+conv-156|user-156|It's been unresolved for days.
+conv-156|agent-156|I'm sorry to hear that. Let me assist you.
+conv-156|agent-156|I've checked your account and found the issue.
+conv-156|user-156|Thank you! That resolves it.
+conv-157|user-157|Hello, I need help with billing issue.
+conv-157|user-157|It's been unresolved for days.
+conv-157|agent-157|I'm sorry to hear that. Let me assist you.
+conv-157|agent-157|I've checked your account and found the issue.
+conv-157|user-157|Thank you! That resolves it.
+conv-158|user-158|Hello, I need help with password reset.
+conv-158|user-158|It's been unresolved for days.
+conv-158|agent-158|I'm sorry to hear that. Let me assist you.
+conv-158|agent-158|I've checked your account and found the issue.
+conv-158|user-158|Thank you! That resolves it.
+conv-159|user-159|Hello, I need help with refund request.
+conv-159|user-159|It's been unresolved for days.
+conv-159|agent-159|I'm sorry to hear that. Let me assist you.
+conv-159|agent-159|I've checked your account and found the issue.
+conv-159|user-159|Thank you! That resolves it.
+conv-160|user-160|Hello, I need help with bug report.
+conv-160|user-160|It's been unresolved for days.
+conv-160|agent-160|I'm sorry to hear that. Let me assist you.
+conv-160|agent-160|I've checked your account and found the issue.
+conv-160|user-160|Thank you! That resolves it.
+conv-161|user-161|Hello, I need help with subscription cancel.
+conv-161|user-161|It's been unresolved for days.
+conv-161|agent-161|I'm sorry to hear that. Let me assist you.
+conv-161|agent-161|I've checked your account and found the issue.
+conv-161|user-161|Thank you! That resolves it.
+conv-162|user-162|Hello, I need help with order delay.
+conv-162|user-162|It's been unresolved for days.
+conv-162|agent-162|I'm sorry to hear that. Let me assist you.
+conv-162|agent-162|I've checked your account and found the issue.
+conv-162|user-162|Thank you! That resolves it.
+conv-163|user-163|Hello, I need help with duplicate charge.
+conv-163|user-163|It's been unresolved for days.
+conv-163|agent-163|I'm sorry to hear that. Let me assist you.
+conv-163|agent-163|I've checked your account and found the issue.
+conv-163|user-163|Thank you! That resolves it.
+conv-164|user-164|Hello, I need help with billing issue.
+conv-164|user-164|It's been unresolved for days.
+conv-164|agent-164|I'm sorry to hear that. Let me assist you.
+conv-164|agent-164|I've checked your account and found the issue.
+conv-164|user-164|Thank you! That resolves it.
+conv-165|user-165|Hello, I need help with data export.
+conv-165|user-165|It's been unresolved for days.
+conv-165|agent-165|I'm sorry to hear that. Let me assist you.
+conv-165|agent-165|I've checked your account and found the issue.
+conv-165|user-165|Thank you! That resolves it.
+conv-166|user-166|Hello, I need help with refund request.
+conv-166|user-166|It's been unresolved for days.
+conv-166|agent-166|I'm sorry to hear that. Let me assist you.
+conv-166|agent-166|I've checked your account and found the issue.
+conv-166|user-166|Thank you! That resolves it.
+conv-167|user-167|Hello, I need help with feature request.
+conv-167|user-167|It's been unresolved for days.
+conv-167|agent-167|I'm sorry to hear that. Let me assist you.
+conv-167|agent-167|I've checked your account and found the issue.
+conv-167|user-167|Thank you! That resolves it.
+conv-168|user-168|Hello, I need help with promo code.
+conv-168|user-168|It's been unresolved for days.
+conv-168|agent-168|I'm sorry to hear that. Let me assist you.
+conv-168|agent-168|I've checked your account and found the issue.
+conv-168|user-168|Thank you! That resolves it.
+conv-169|user-169|Hello, I need help with refund request.
+conv-169|user-169|It's been unresolved for days.
+conv-169|agent-169|I'm sorry to hear that. Let me assist you.
+conv-169|agent-169|I've checked your account and found the issue.
+conv-169|user-169|Thank you! That resolves it.
+conv-170|user-170|Hello, I need help with subscription cancel.
+conv-170|user-170|It's been unresolved for days.
+conv-170|agent-170|I'm sorry to hear that. Let me assist you.
+conv-170|agent-170|I've checked your account and found the issue.
+conv-170|user-170|Thank you! That resolves it.
+conv-171|user-171|Hello, I need help with feature request.
+conv-171|user-171|It's been unresolved for days.
+conv-171|agent-171|I'm sorry to hear that. Let me assist you.
+conv-171|agent-171|I've checked your account and found the issue.
+conv-171|user-171|Thank you! That resolves it.
+conv-172|user-172|Hello, I need help with service outage.
+conv-172|user-172|It's been unresolved for days.
+conv-172|agent-172|I'm sorry to hear that. Let me assist you.
+conv-172|agent-172|I've checked your account and found the issue.
+conv-172|user-172|Thank you! That resolves it.
+conv-173|user-173|Hello, I need help with service outage.
+conv-173|user-173|It's been unresolved for days.
+conv-173|agent-173|I'm sorry to hear that. Let me assist you.
+conv-173|agent-173|I've checked your account and found the issue.
+conv-173|user-173|Thank you! That resolves it.
+conv-174|user-174|Hello, I need help with privacy concern.
+conv-174|user-174|It's been unresolved for days.
+conv-174|agent-174|I'm sorry to hear that. Let me assist you.
+conv-174|agent-174|I've checked your account and found the issue.
+conv-174|user-174|Thank you! That resolves it.
+conv-175|user-175|Hello, I need help with data export.
+conv-175|user-175|It's been unresolved for days.
+conv-175|agent-175|I'm sorry to hear that. Let me assist you.
+conv-175|agent-175|I've checked your account and found the issue.
+conv-175|user-175|Thank you! That resolves it.
+conv-176|user-176|Hello, I need help with billing issue.
+conv-176|user-176|It's been unresolved for days.
+conv-176|agent-176|I'm sorry to hear that. Let me assist you.
+conv-176|agent-176|I've checked your account and found the issue.
+conv-176|user-176|Thank you! That resolves it.
+conv-177|user-177|Hello, I need help with privacy concern.
+conv-177|user-177|It's been unresolved for days.
+conv-177|agent-177|I'm sorry to hear that. Let me assist you.
+conv-177|agent-177|I've checked your account and found the issue.
+conv-177|user-177|Thank you! That resolves it.
+conv-178|user-178|Hello, I need help with order delay.
+conv-178|user-178|It's been unresolved for days.
+conv-178|agent-178|I'm sorry to hear that. Let me assist you.
+conv-178|agent-178|I've checked your account and found the issue.
+conv-178|user-178|Thank you! That resolves it.
+conv-179|user-179|Hello, I need help with upgrade plan.
+conv-179|user-179|It's been unresolved for days.
+conv-179|agent-179|I'm sorry to hear that. Let me assist you.
+conv-179|agent-179|I've checked your account and found the issue.
+conv-179|user-179|Thank you! That resolves it.
+conv-180|user-180|Hello, I need help with account access.
+conv-180|user-180|It's been unresolved for days.
+conv-180|agent-180|I'm sorry to hear that. Let me assist you.
+conv-180|agent-180|I've checked your account and found the issue.
+conv-180|user-180|Thank you! That resolves it.
+conv-181|user-181|Hello, I need help with mobile app crash.
+conv-181|user-181|It's been unresolved for days.
+conv-181|agent-181|I'm sorry to hear that. Let me assist you.
+conv-181|agent-181|I've checked your account and found the issue.
+conv-181|user-181|Thank you! That resolves it.
+conv-182|user-182|Hello, I need help with subscription cancel.
+conv-182|user-182|It's been unresolved for days.
+conv-182|agent-182|I'm sorry to hear that. Let me assist you.
+conv-182|agent-182|I've checked your account and found the issue.
+conv-182|user-182|Thank you! That resolves it.
+conv-183|user-183|Hello, I need help with feature request.
+conv-183|user-183|It's been unresolved for days.
+conv-183|agent-183|I'm sorry to hear that. Let me assist you.
+conv-183|agent-183|I've checked your account and found the issue.
+conv-183|user-183|Thank you! That resolves it.
+conv-184|user-184|Hello, I need help with data export.
+conv-184|user-184|It's been unresolved for days.
+conv-184|agent-184|I'm sorry to hear that. Let me assist you.
+conv-184|agent-184|I've checked your account and found the issue.
+conv-184|user-184|Thank you! That resolves it.
+conv-185|user-185|Hello, I need help with privacy concern.
+conv-185|user-185|It's been unresolved for days.
+conv-185|agent-185|I'm sorry to hear that. Let me assist you.
+conv-185|agent-185|I've checked your account and found the issue.
+conv-185|user-185|Thank you! That resolves it.
+conv-186|user-186|Hello, I need help with billing issue.
+conv-186|user-186|It's been unresolved for days.
+conv-186|agent-186|I'm sorry to hear that. Let me assist you.
+conv-186|agent-186|I've checked your account and found the issue.
+conv-186|user-186|Thank you! That resolves it.
+conv-187|user-187|Hello, I need help with feature request.
+conv-187|user-187|It's been unresolved for days.
+conv-187|agent-187|I'm sorry to hear that. Let me assist you.
+conv-187|agent-187|I've checked your account and found the issue.
+conv-187|user-187|Thank you! That resolves it.
+conv-188|user-188|Hello, I need help with feature request.
+conv-188|user-188|It's been unresolved for days.
+conv-188|agent-188|I'm sorry to hear that. Let me assist you.
+conv-188|agent-188|I've checked your account and found the issue.
+conv-188|user-188|Thank you! That resolves it.
+conv-189|user-189|Hello, I need help with subscription cancel.
+conv-189|user-189|It's been unresolved for days.
+conv-189|agent-189|I'm sorry to hear that. Let me assist you.
+conv-189|agent-189|I've checked your account and found the issue.
+conv-189|user-189|Thank you! That resolves it.
+conv-190|user-190|Hello, I need help with billing issue.
+conv-190|user-190|It's been unresolved for days.
+conv-190|agent-190|I'm sorry to hear that. Let me assist you.
+conv-190|agent-190|I've checked your account and found the issue.
+conv-190|user-190|Thank you! That resolves it.
+conv-191|user-191|Hello, I need help with promo code.
+conv-191|user-191|It's been unresolved for days.
+conv-191|agent-191|I'm sorry to hear that. Let me assist you.
+conv-191|agent-191|I've checked your account and found the issue.
+conv-191|user-191|Thank you! That resolves it.
+conv-192|user-192|Hello, I need help with upgrade plan.
+conv-192|user-192|It's been unresolved for days.
+conv-192|agent-192|I'm sorry to hear that. Let me assist you.
+conv-192|agent-192|I've checked your account and found the issue.
+conv-192|user-192|Thank you! That resolves it.
+conv-193|user-193|Hello, I need help with password reset.
+conv-193|user-193|It's been unresolved for days.
+conv-193|agent-193|I'm sorry to hear that. Let me assist you.
+conv-193|agent-193|I've checked your account and found the issue.
+conv-193|user-193|Thank you! That resolves it.
+conv-194|user-194|Hello, I need help with bug report.
+conv-194|user-194|It's been unresolved for days.
+conv-194|agent-194|I'm sorry to hear that. Let me assist you.
+conv-194|agent-194|I've checked your account and found the issue.
+conv-194|user-194|Thank you! That resolves it.
+conv-195|user-195|Hello, I need help with order delay.
+conv-195|user-195|It's been unresolved for days.
+conv-195|agent-195|I'm sorry to hear that. Let me assist you.
+conv-195|agent-195|I've checked your account and found the issue.
+conv-195|user-195|Thank you! That resolves it.
+conv-196|user-196|Hello, I need help with account access.
+conv-196|user-196|It's been unresolved for days.
+conv-196|agent-196|I'm sorry to hear that. Let me assist you.
+conv-196|agent-196|I've checked your account and found the issue.
+conv-196|user-196|Thank you! That resolves it.
+conv-197|user-197|Hello, I need help with billing issue.
+conv-197|user-197|It's been unresolved for days.
+conv-197|agent-197|I'm sorry to hear that. Let me assist you.
+conv-197|agent-197|I've checked your account and found the issue.
+conv-197|user-197|Thank you! That resolves it.
+conv-198|user-198|Hello, I need help with promo code.
+conv-198|user-198|It's been unresolved for days.
+conv-198|agent-198|I'm sorry to hear that. Let me assist you.
+conv-198|agent-198|I've checked your account and found the issue.
+conv-198|user-198|Thank you! That resolves it.
+conv-199|user-199|Hello, I need help with mobile app crash.
+conv-199|user-199|It's been unresolved for days.
+conv-199|agent-199|I'm sorry to hear that. Let me assist you.
+conv-199|agent-199|I've checked your account and found the issue.
+conv-199|user-199|Thank you! That resolves it.
+conv-200|user-200|Hello, I need help with password reset.
+conv-200|user-200|It's been unresolved for days.
+conv-200|agent-200|I'm sorry to hear that. Let me assist you.
+conv-200|agent-200|I've checked your account and found the issue.
+conv-200|user-200|Thank you! That resolves it.

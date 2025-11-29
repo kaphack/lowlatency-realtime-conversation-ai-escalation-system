@@ -23,6 +23,8 @@ message ConversationChunk {
 
   // Extra metadata fields (channel, language, tags, etc.).
   map<string, string> metadata = 6;
+
+  string client_id = 7;
 }
 
 // Acknowledgement from analytics/escalation engine after stream finishes.
@@ -38,6 +40,8 @@ message AnalyticsAck {
 
   // Optional human-readable message (error, debug info, etc.).
   string message = 4;
+
+  string client_id = 7;
 }
 
 // gRPC service for client-streaming conversation chunks.

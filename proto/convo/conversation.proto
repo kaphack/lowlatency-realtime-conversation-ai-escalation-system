@@ -1,0 +1,37 @@
+syntax = "proto3";
+
+package convo;
+
+option go_package = "github.com/kaphack/lowlatency-realtime-conversation-ai-escalation-system/proto/convo";
+
+message AudioChunk {
+  string conversation_id = 1;
+  string participant_id = 2;
+  uint64 sequence = 3;
+  bytes payload = 4;
+  int64 timestamp = 5;
+}
+
+// New: conversation-level event (transcript already produced)
+message ConversationEvent {
+  string conversation_id = 1;
+  string participant_id = 2;
+  uint64 sequence = 3;        // monotonic per conversation
+  string transcript = 4;      // the text you already have
+  int64 timestamp = 5;        // epoch millis when transcript produced
+  map<string, string> meta = 6;
+}
+
+message ProduceAck {
+  string conversation_id = 1;
+  bool ok = 2;
+  string message = 3;
+}
+
+service ConversationService {
+  // keep existing RPC for audio
+  rpc StreamAudio(stream AudioChunk) returns (ProduceAck);
+
+  // NEW: stream transcript events (client streaming)
+  rpc StreamEvents(stream ConversationEvent) returns (ProduceAck);
+}
