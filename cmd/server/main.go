@@ -94,7 +94,7 @@ func main() {
 		}
 	}()
 
-	// Start Kafka Consumer in goroutine
+	// Start Kafka Consumer in gohroutine
 	go func() {
 		if err := consumer.Start(ctx); err != nil {
 			log.Printf("Consumer error: %v", err)

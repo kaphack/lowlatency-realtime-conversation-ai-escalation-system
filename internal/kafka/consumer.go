@@ -48,6 +48,17 @@ func (c *Consumer) Start(ctx context.Context) error {
 		text := string(m.Value)
 		log.Printf("Received message: %s", text)
 
+		// Save message to DB
+		// Assuming conversation_id is part of the key or we use a default for now.
+		// In a real system, the message value would likely be a JSON struct containing conversation_id.
+		conversationID := "default_conversation"
+		if len(m.Key) > 0 {
+			conversationID = string(m.Key)
+		}
+		if err := c.repo.SaveMessage(conversationID, text, m.Time.UnixMilli()); err != nil {
+			log.Printf("Failed to save message: %v", err)
+		}
+
 		// 1. Analyze
 		analysis := c.analyzer.Analyze(text)
 
