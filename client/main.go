@@ -124,7 +124,7 @@ func main() {
 
 			sessionID := fmt.Sprintf("session-%d", streamID)
 			senderID := fmt.Sprintf("user-%d", streamID)
-			chunkText := fmt.Sprintf("%s", transcriptChunk[streamID])
+			chunkText := fmt.Sprintf("%s", transcriptChunk[0])
 
 			chunkObj := &conversationv1.ConversationChunk{
 				SessionId:   sessionID,
