@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"log"
 
+	_ "github.com/go-sql-driver/mysql"
 	"github.com/google/uuid"
 	"github.com/kaphack/lowlatency-realtime-conversation-ai-escalation-system/internal/core"
 )
@@ -35,7 +36,7 @@ func NewRepository(dsn string) (*Repository, error) {
 func (r *Repository) initSchema() error {
 	query := `
 	CREATE TABLE IF NOT EXISTS rules (
-		id VARCHAR(36) PRIMARY KEY,
+		id TEXT PRIMARY KEY,
 		name TEXT NOT NULL,
 		conditions JSON NOT NULL,
 		action TEXT NOT NULL
