@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	pb "github.com/rba1aji/lowlatency-realtime-conversation-ai-escalation-system/proto/convo"
+	pb "github.com/kaphack/lowlatency-realtime-conversation-ai-escalation-system/proto/convo"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"

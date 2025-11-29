@@ -8,7 +8,7 @@ import (
 	"github.com/segmentio/kafka-go"
 	"google.golang.org/protobuf/proto"
 
-	pb "github.com/rba1aji/lowlatency-realtime-conversation-ai-escalation-system/proto/convo"
+	pb "github.com/kaphack/lowlatency-realtime-conversation-ai-escalation-system/proto/convo"
 )
 
 // ConversationServer implements the proto service and writes audio chunks to Kafka.
