@@ -7,9 +7,9 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/rba1aji/lowlatency-realtime-conversation-ai-escalation-system/internal/core"
-	"github.com/rba1aji/lowlatency-realtime-conversation-ai-escalation-system/internal/db"
-	"github.com/rba1aji/lowlatency-realtime-conversation-ai-escalation-system/internal/kafka"
+	"github.com/kaphack/lowlatency-realtime-conversation-ai-escalation-system/internal/core"
+	"github.com/kaphack/lowlatency-realtime-conversation-ai-escalation-system/internal/db"
+	"github.com/kaphack/lowlatency-realtime-conversation-ai-escalation-system/internal/kafka"
 )
 
 func main() {

@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"log"
 
-	_ "github.com/mattn/go-sqlite3"
-	"github.com/rba1aji/lowlatency-realtime-conversation-ai-escalation-system/internal/core"
 	"github.com/google/uuid"
+	"github.com/kaphack/lowlatency-realtime-conversation-ai-escalation-system/internal/core"
+	_ "github.com/mattn/go-sqlite3"
 )
 
 type Repository struct {
